@@ -83,7 +83,7 @@ cargo build --release --example demo
 target/release/examples/demo.exe
 ```
 
-The demo executable loads calc.exe shellcode (or whatever you generate with msfvenom) and executes it entirely through syscalls. No VirtualAlloc, no CreateThread, just NT APIs.
+The demo executable loads a message box shellcode (or whatever you generate with msfvenom) and executes it entirely through syscalls. No VirtualAlloc, no CreateThread, just NT APIs.
 
 ## Technical Notes
 
